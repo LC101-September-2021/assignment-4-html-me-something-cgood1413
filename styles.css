@@ -1,5 +1,91 @@
 /* Write your CSS here! */
+body {
+    background-color: #EAE7EB;
+    margin: 0;
+}
+
+h1 {
+    color: #EAE7EB;
+    background-color: #2c5391;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 0;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 25px 50px;
+    background-color: #080707;
+}
+
+li {
+    color: #EAE7EB;
+}
+
+section {
+    margin: 25px 50px;
+}
+
+footer {
+    text-align: right;
+    color: #EAE7EB;
+    background-color: #080707;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.article-button {
+    background-color: #2c5391;
+    color: #EAE7EB;
+    width: 100%;
+    border-width: 0;
+}
+
+.article-button:hover {
+    background-color: #26477C;
+    color: #EAC435;
+}
+
 .media-link{
     width: 32px;
     height: auto;
 }
+
+
+/* Color Palette Options: 
+
+1:
+Russian Violet #372248
+Pink Lavender #E0ACD5
+Blue Sapphire #1C6E8C
+Moss Green #7C995C
+Sonic Silver #757575
+
+2:
+Celtic Blue #0C6DD4
+Satin Sheen Gold #CCA43B
+Platinum #E5E5E5
+White #FFFFFF
+Davys Grey #474747
+
+3:
+Platnium #E6E4E7 – Background
+Saffron #EAC435
+Xanadu #667761
+Bdazzled Blue #345995
+Rich Black Fogra #070707
+*/
+
+/* 
+
+"Saffron":"ebc025",
+"Fern Green":"5b7952",
+"Y In Mn Blue":"2c5391",
+"Rich Black FOGRA 39":"080707"} 
+ */
