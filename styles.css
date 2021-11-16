@@ -32,10 +32,12 @@ section {
 }
 
 footer {
-    text-align: right;
-    color: #EAE7EB;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: #080707;
     position: absolute;
+    height: 85px;
     width: 100%;
     left: 0;
 }
@@ -52,11 +54,19 @@ footer {
     color: #EAC435;
 }
 
+
+.media-logo {
+    margin: 15px 40px 15px 0;
+}
+
 .media-link{
     width: 32px;
     height: auto;
 }
 
+#places {
+    display: flex;
+}
 
 /* Color Palette Options: 
 
