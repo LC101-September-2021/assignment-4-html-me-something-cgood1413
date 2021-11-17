@@ -39,51 +39,87 @@ h1 {
 
 h2 {
     font-family: "Space Mono", monospace;
+    letter-spacing: 1.5px;
+    font-size: 3vh;
 }
 
 h3 {
     font-family: "Space Mono", monospace;
     font-size: 100%;
-    margin: 2px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-family: "Space Mono", monospace;
+    color: #EAC435;
+    letter-spacing: 1.5px;
 }
 
 ul {
     display: inherit;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     margin: 0;
+    padding: 0;
     background: linear-gradient(175deg, #080707, #231E24);
     height: 40vh;
 }
 
 li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     color: #EAE7EB;
+    width: 25vw;
+}
+
+a {
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
+}
+
+a:link {
+    color: #EAE7EB;
+}
+
+a:visited {
+    color: #84A5D9;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 article {
     display: inherit;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 section {
     display: inherit;
     margin: 25px 50px;
+    width: 85vw;
 }
 
 p {
     font-family: "Mulish", sans-serif;
     line-height: 1.8;
-    margin: 15px;
+    letter-spacing: 1.1px;
     text-align: justify;
 }
 
 figure {
     display: inherit;
     flex-direction: column;
+    justify-content: center;
     align-content: center;
+    margin: 0;
 }
 
 .article-button {
@@ -103,11 +139,12 @@ figure {
     flex-direction: column;
     justify-content: flex-start;
     width: 20%;
-    margin: 10px 20px;
+    margin: 25px 20px;
 }
 
-.goal_icon {
-    font-size: 48px;
+.goal-section {
+    height: 20%;
+    width: 80%;
 }
 
 .media-logo {
@@ -119,18 +156,24 @@ figure {
     height: auto;
 }
 
+.goal-fig {
+    width: 48px;
+    height: auto;
+    margin-right: 25px;
+}
+
+.city-figure {
+    height: auto;
+    width: 100%;
+}
+
+.city-text {
+    font-size: 1.1vw;
+}
+
 #about-fig{
     width: 20%;
-}
-
-#cities {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-#goals {
-    flex-wrap: wrap;
-    justify-content: center;
+    margin-left: 50px;
 }
 
 
