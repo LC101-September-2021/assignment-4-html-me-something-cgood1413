@@ -10,7 +10,7 @@
       <header>
          <h1>Chance</h1>
          <ul>
-            <!-- I would've liked to have assigned the links here programatically but ¯\_(ツ)_/¯-->
+            <!-- This feels like a very inelegant way to handle this but for now it's doing what I want -->
             <div>
                <li>
                   <h4>Name:</h4>
@@ -21,11 +21,12 @@
                   <p>25</p>
                </li>
                <li>
-                  <h4>Sign</h4>
+                  <h4>Sign:</h4>
                   <p>Gemini</p>
                </li>
             </div>
             <div>
+               <!-- I would've liked to have assigned the links here programatically but ¯\_(ツ)_/¯-->
                <li>
                   <h4>Playing:</h4>
                   <a target="_blank" href="https://open.spotify.com/playlist/37i9dQZF1DXcytuPF2IzEB?si=22aab9d5ecbb4691">80s Dance</a>
@@ -42,120 +43,101 @@
          </ul>
       </header>
       <main>
-         <button class="article-button"><h2>About</h2></button>
-         <article id="about">
-            <section id="about-section">
-               <p id="about-text">When planning for children, my mother initially wanted an eldest son 
-                  and a younger daughter. After having my eldest sister for her first child, 
-                  she decided that she would be content with the inverse: a younger son 
-                  and eldest daughter. This led to the birth of my second oldest sister.
-                  Realizing that her original plan wasn’t meant to be, my mother decided that 
-                  she simply just wanted <strong>a</strong> son and so had my third sister. 
-                  Finally, she told herself that she would try just once more for a boy and 
-                  regardless of the outcome it would be her last child. The universe then 
-                  decided to stop playing its cosmic joke with my mother, who had her one 
-                  and only boy that she wanted; her last <em>Chance</em> for a son.</p>
-               <figure id=about-fig>
-                  <img  id="about-img" src="./images/baby photo.png" alt="Baby photo of me wearing a party hat">
-               </figure>
-            </section>
-         </article>
-         <button class="article-button"><h2>Cities I've Lived</h2></button>
-         <article id="cities">
-            <section class="city">
-               <figure>
-                  <img class="city-figure" src="./images/Lancaster CA.jpeg" alt="Aerial view of downtown Lancaster, California">
-               </figure>
-               <h3>Lancaster, California</h3>
-               <p class="city-text">The city where I was born! Though I moved at a very young age and have 
-                  virtually no recollection of living there, being born in California has 
-                  always been a primary part of my history. This is especially true since I 
-                  use my passport as my primary identification and it shows the state of birth.</p>
-            </section>
-            <section class="city">
-               <figure>
-                  <img class="city-figure" src="./images/Springfield IL.jpeg" alt="Illinois State Capitol in downtown Springfield">
-               </figure>
-               <h3>Springfield, Illinois</h3>
-               <p class="city-text">Springfield and its suburbs are where I spent the majority of my formative 
-                  years. If forced to say where I’m from in a single word, it would be Chatham 
-                  even though I’ve now spent a majority of my life away from the “217”.</p>
-            </section>
-            <section class="city">
-               <figure>
-                  <img class="city-figure" src="./images/Edwardsville IL.jpeg" alt="Statue of the SIUE Cougar Mascot in Edwardsville, Illinois">
-               </figure>
-               <h3>Edwardsville, Illinois</h3>
-               <p class="city-text">My alleged adulthood began with moving just a mere hour and a half away to 
-                  Southern Illinois University at Edwardsville (the better SIU). This is the 
-                  place where I really formed my identity and interests, so to me it holds a 
-                  lot of sentimental value.</p>
-            </section>
-            <section class="city">
-               <figure>
-                  <img class="city-figure" src="./images/Lyon FR.jpeg" alt="Basilica of Notre-Dame de Fourvière in Lyon, France">
-               </figure>
-               <h3>Lyon, France</h3>
-               <p class="city-text">I studied abroad in Lyon and it was also another critical chapter in my life. 
-                  While the cultures between the United States and France aren’t vastly different, 
-                  it was definitely a lesson in being independent yet receptive.</p>
-            </section>
-            <section class="city">
-               <figure>
-                  <img class="city-figure" src="./images/Columbus OH.jpeg" alt="Aerial view of downtown Columbus, Ohio">
-               </figure>
-               <h3>Columbus, Ohio</h3>
-               <p class="city-text">Columbus is where I spent a summer at the Ohio State University with their 
-                  linguistics department. Funnily, my initial interest in programming/ coding 
-                  began here when I realized even the social sciences value those skills as well.</p>
-            </section>
-            <section class="city">
-               <figure>
-                  <img class="city-figure" src="./images/St Louis MO.jpeg" alt="Downtown St. Louis, Missour at night including the Gateway Arch">
-               </figure>
-               <h3>St. Louis, Missouri</h3>
-               <p class="city-text">After graduating, I moved just across the river and started my first 
-                  full-time job. I ended up greatly disliking the work and of course Covid-19
-                  only intensified this. Subsequently, I quit and started looking into other 
-                  pursuits which is how I ended up at LaunchCode&trade;!</p>
-            </section>
-            <section class="city">
-               <figure>
-                  <img class="city-figure" src="./images/Austin TX.jpeg" alt="Downtown Austin including the Texas State Capitol">
-               </figure>
-               <h3>Austin, Texas</h3>
-               <p class="city-text">My second-oldest sister has lived in Austin for some time and she has 
-                  supported me looking into other ventures. She also had her first daughter 
-                  in 2020 so I now spend quite a bit of time with them in Austin as well.</p>
-            </section>
-         </article>
-         <button class="article-button"><h2>Goals</h2></button>
-         <article id="goals">
-            <section class="goal-section">
-               <figure>
-                  <img class="goal-fig" src="./images/Javascript Logo.png" alt="Javascript Logo">
-               </figure>
-               <p>My most immediate goal is to become decently proficient with JavaScript. 
-                  To me, it’s the linchpin for everything else I’m currently learning and so 
-                  the most critical that I understand well.</p>
-            </section> 
-            <section class="goal-section">
-               <figure>
-                  <img class="goal-fig" src="./images/CSS Logo.png" alt="CSS Logo">
-               </figure>
-               <p>This assignment as well as external materials have shown me how useful CSS 
-                  can be when it comes to front-end design. While I feel like this is a decent 
-                  first attempt, I know I need more experience with it.</p>
-            </section> 
-            <section class="goal-section">
-               <figure>
-                  <img class="goal-fig" src="./images/Python Icon.png" alt="Python Logo">
-               </figure>
-               <p>Beyond the scope of this class, I think tackling Python would be a natural 
-                  progression in my education. It’s the language that use primarily used in 
-                  NLP fields, and it’d be nice to marry my past experience with my new education.</p>
-            </section> 
-         </article>
+         <!-- I also replaced my use of buttons (which I had intended to turn into collapsibles with JS) with the details element which feels much more elegant. However, in the documentation it does mention that the headings nested in the summary element aren't accessible to screen readers. Since this is a "private" project I don't imagine that's the worst fault but I definitely don't want to get in the habit of inacessible coding -->
+         <details>
+            <summary>
+               <h2>About</h2>
+            </summary>
+            <article id="about">
+               <section id="about-section">
+                  <p id="about-text">When planning for children, my mother initially wanted an eldest son and a younger daughter. After having my eldest sister for her first child, she decided that she would be content with the inverse: a younger son and eldest daughter. This led to the birth of my second oldest sister. Realizing that her original plan wasn’t meant to be, my mother decided that she simply just wanted <strong>a</strong> son and so had my third sister. Finally, she told herself that she would try just once more for a boy and regardless of the outcome it would be her last child. The universe then decided to stop playing its cosmic joke with my mother, who had her one and only boy that she wanted; her last <em>Chance</em> for a son.</p>
+                  <figure id=about-fig>
+                     <img  id="about-img" src="./images/baby photo.png" alt="Baby photo of me wearing a party hat">
+                  </figure>
+               </section>
+            </article>
+         </details>
+         <details>
+            <summary>
+               <h2>Cities I've Lived</h2>
+            </summary>
+            <article id="cities">
+               <section class="city">
+                  <figure>
+                     <img class="city-figure" src="./images/Lancaster CA.jpeg" alt="Aerial view of downtown Lancaster, California">
+                  </figure>
+                  <h3>Lancaster, California</h3>
+                  <p class="city-text">The city where I was born! Though I moved at a very young age and have virtually no recollection of living there, being born in California has always been a primary part of my history. This is especially true since I use my passport as my primary identification and it shows the state of birth.</p>
+               </section>
+               <section class="city">
+                  <figure>
+                     <img class="city-figure" src="./images/Springfield IL.jpeg" alt="Illinois State Capitol in downtown Springfield">
+                  </figure>
+                  <h3>Springfield, Illinois</h3>
+                  <p class="city-text">Springfield and its suburbs are where I spent the majority of my formative years. If forced to say where I’m from in a single word, it would be Chatham even though I’ve now spent a majority of my life away from the “217”.</p>
+               </section>
+               <section class="city">
+                  <figure>
+                     <img class="city-figure" src="./images/Edwardsville IL.jpeg" alt="Statue of the SIUE Cougar Mascot in Edwardsville, Illinois">
+                  </figure>
+                  <h3>Edwardsville, Illinois</h3>
+                  <p class="city-text">My alleged adulthood began with moving just a mere hour and a half away to Southern Illinois University at Edwardsville (the better SIU). This is the place where I really formed my identity and interests, so to me it holds a lot of sentimental value.</p>
+               </section>
+               <section class="city">
+                  <figure>
+                     <img class="city-figure" src="./images/Lyon FR.jpeg" alt="Basilica of Notre-Dame de Fourvière in Lyon, France">
+                  </figure>
+                  <h3>Lyon, France</h3>
+                  <p class="city-text">I studied abroad in Lyon and it was also another critical chapter in my life. While the cultures between the United States and France aren’t vastly different, it was definitely a lesson in being independent yet receptive.</p>
+               </section>
+               <section class="city">
+                  <figure>
+                     <img class="city-figure" src="./images/Columbus OH.jpeg" alt="Aerial view of downtown Columbus, Ohio">
+                  </figure>
+                  <h3>Columbus, Ohio</h3>
+                  <p class="city-text">Columbus is where I spent a summer at the Ohio State University with their linguistics department. Funnily, my initial interest in programming/ coding began here when I realized even the social sciences value those skills as well.</p>
+               </section>
+               <section class="city">
+                  <figure>
+                     <img class="city-figure" src="./images/St Louis MO.jpeg" alt="Downtown St. Louis, Missour at night including the Gateway Arch">
+                  </figure>
+                  <h3>St. Louis, Missouri</h3>
+                  <p class="city-text">After graduating, I moved just across the river and started my first full-time job. I ended up greatly disliking the work and of course Covid-19 only intensified this. Subsequently, I quit and started looking into other pursuits which is how I ended up at LaunchCode&trade;!</p>
+               </section>
+               <section class="city">
+                  <figure>
+                     <img class="city-figure" src="./images/Austin TX.jpeg" alt="Downtown Austin including the Texas State Capitol">
+                  </figure>
+                  <h3>Austin, Texas</h3>
+                  <p class="city-text">My second-oldest sister has lived in Austin for some time and she has supported me looking into other ventures. She also had her first daughter in 2020 so I now spend quite a bit of time with them in Austin as well.</p>
+               </section>
+            </article>
+         </details>
+         <details>
+            <summary>
+               <h2>Goals</h2>
+            </summary>
+            <article id="goals">
+               <section class="goal-section">
+                  <figure>
+                     <img class="goal-fig" src="./images/Javascript Logo.png" alt="Javascript Logo">
+                  </figure>
+                  <p>My most immediate goal is to become decently proficient with JavaScript. To me, it’s the linchpin for everything else I’m currently learning and so the most critical that I understand well.</p>
+               </section> 
+               <section class="goal-section">
+                  <figure>
+                     <img class="goal-fig" src="./images/CSS Logo.png" alt="CSS Logo">
+                  </figure>
+                  <p>This assignment as well as external materials have shown me how useful CSS can be when it comes to front-end design. While I feel like this is a decent first attempt, I know I need more experience with it.</p>
+               </section> 
+               <section class="goal-section">
+                  <figure>
+                     <img class="goal-fig" src="./images/Python Icon.png" alt="Python Logo">
+                  </figure>
+                  <p>Beyond the scope of this class, I think tackling Python would be a natural progression in my education. It’s the language that use primarily used in NLP fields, and it’d be nice to marry my past experience with my new education.</p>
+               </section> 
+            </article>
+         </details>
       </main>
       <footer>
          <figure class="media-logo">

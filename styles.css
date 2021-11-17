@@ -1,6 +1,6 @@
 /* Obviously I didn't follow the assignment 100% exactly, but I personally feel like the key concepts are there */
 
-/* My major issue with my CSS file is that it doesn't feel very elegant, I'm basically addressing issues ad hoc when the overall formatting isn't doing what I want*/
+/* My major issue with my CSS file is that it doesn't feel very elegant, I'm basically addressing issues ad hoc when the overall formatting isn't doing what I want and I think it makes my code more difficult to read */
 
 /* An 8px body margin with red headings and green text is just not a vibe imho 😬 */
 
@@ -14,7 +14,7 @@ body {
 header {
     display: inherit;
     flex-direction: inherit;
-    height: 70vh;
+    height: 77.5vh;
 }
 
 main {
@@ -46,7 +46,7 @@ h1 {
 h2 {
     font-family: "Space Mono", monospace;
     letter-spacing: 1.5px;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 
 h3 {
@@ -72,7 +72,7 @@ ul {
     margin: 0;
     padding: 0;
     background: linear-gradient(175deg, #080707, #231E24);
-    height: 40vh;
+    height: 47.5vh;
 }
 
 li {
@@ -101,14 +101,34 @@ a:hover {
     text-decoration: underline;
 }
 
+summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c5391;
+    color: #EAE7EB;
+    height: 7.5vh;
+}
+
+summary:hover {
+    background-color: #26477C;
+    color: #EAC435;
+}
+
+/* I'm still not 100% with how this selector works but from the documentation it looks like it takes on some of the logic that I might right with a script */
+details[open] > summary {
+    background-color: #26477C;
+    color: #EAC435;
+  }
+
 article {
-    display: inherit;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 section {
-    display: inherit;
+    display: flex;
     margin: 25px 50px;
     width: 85vw;
 }
@@ -126,19 +146,6 @@ figure {
     justify-content: center;
     align-content: center;
     margin: 0;
-}
-
-.article-button {
-    background-color: #2c5391;
-    color: #EAE7EB;
-    width: 100%;
-    border-width: 0;
-    height: 10vh;
-}
-
-.article-button:hover {
-    background-color: #26477C;
-    color: #EAC435;
 }
 
 .city {
@@ -182,7 +189,6 @@ figure {
     width: 20%;
     margin-left: 50px;
 }
-
 
 /* Color Palette: 
 Lightest: #E6E4E7
