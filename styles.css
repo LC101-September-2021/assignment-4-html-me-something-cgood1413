@@ -1,45 +1,89 @@
-/* Write your CSS here! */
 body {
     background-color: #EAE7EB;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: inherit;
+    flex-direction: inherit;
+    height: 70vh;
+}
+
+main {
+    display: inherit;
+    flex-direction: column;
+}
+
+footer {
+    display: inherit;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #080707;
 }
 
 h1 {
+    font-family: "Space Mono", monospace;
+    font-size: 10vh;
+    letter-spacing: 5px;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
     color: #EAE7EB;
     background-color: #2c5391;
-    text-align: center;
-    padding: 50px 0;
-    margin-top: 0;
-    position: relative;
-    height: 50px;
     width: 100%;
-    top: 0;
-    left: 0;
+    margin: 0;
+    height: 30vh;
+}
+
+h2 {
+    font-family: "Space Mono", monospace;
+}
+
+h3 {
+    font-family: "Space Mono", monospace;
+    font-size: 100%;
+    margin: 2px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 ul {
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    padding: 25px 50px;
-    background-color: #080707;
+    background: linear-gradient(175deg, #080707, #231E24);
+    height: 40vh;
 }
 
 li {
     color: #EAE7EB;
 }
 
+article {
+    display: inherit;
+}
+
 section {
+    display: inherit;
     margin: 25px 50px;
 }
 
-footer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #080707;
-    position: absolute;
-    height: 85px;
-    width: 100%;
-    left: 0;
+p {
+    font-family: "Mulish", sans-serif;
+    line-height: 1.8;
+    margin: 15px;
+    text-align: justify;
+}
+
+figure {
+    display: inherit;
+    flex-direction: column;
+    align-content: center;
 }
 
 .article-button {
@@ -47,6 +91,7 @@ footer {
     color: #EAE7EB;
     width: 100%;
     border-width: 0;
+    height: 10vh;
 }
 
 .article-button:hover {
@@ -54,6 +99,16 @@ footer {
     color: #EAC435;
 }
 
+.city {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%;
+    margin: 10px 20px;
+}
+
+.goal_icon {
+    font-size: 48px;
+}
 
 .media-logo {
     margin: 15px 40px 15px 0;
@@ -64,38 +119,25 @@ footer {
     height: auto;
 }
 
-#places {
-    display: flex;
+#about-fig{
+    width: 20%;
 }
 
-/* Color Palette Options: 
+#cities {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-1:
-Russian Violet #372248
-Pink Lavender #E0ACD5
-Blue Sapphire #1C6E8C
-Moss Green #7C995C
-Sonic Silver #757575
+#goals {
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-2:
-Celtic Blue #0C6DD4
-Satin Sheen Gold #CCA43B
-Platinum #E5E5E5
-White #FFFFFF
-Davys Grey #474747
 
-3:
-Platnium #E6E4E7 – Background
-Saffron #EAC435
-Xanadu #667761
-Bdazzled Blue #345995
-Rich Black Fogra #070707
+/* Color Palette: 
+
+Lightest: #E6E4E7
+Primary: #2c5391
+Secondary #EAC435
+Darkest: #080707
 */
-
-/* 
-
-"Saffron":"ebc025",
-"Fern Green":"5b7952",
-"Y In Mn Blue":"2c5391",
-"Rich Black FOGRA 39":"080707"} 
- */

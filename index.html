@@ -3,21 +3,12 @@
    <head>
       <title>Chance</title>
       <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Space+Mono&display=swap" rel="stylesheet">
       <script src="./script.js"></script>
    </head>
    <body>
       <header>
-         <h1>CHANCE</h1>
-         <!-- <nav>
-            <ul>
-               <li><a href="#about">About</a></li>
-               <li><a href="#places">Places I've Lived</a></li>
-               <li><a href="#article-3">Article 3</a></li>
-            </ul>
-         </nav> -->
-      </header>
-      <main>
-         <h2>Intro</h2>
+         <h1>Chance</h1>
          <ul>
             <li>Name: Chance</li>
             <li>Age: 25</li>
@@ -26,10 +17,12 @@
             <li>Cooking: ???</li>
             <li>Growing: ???</li>
          </ul>
+      </header>
+      <main>
          <button class="article-button"><h2>About</h2></button>
          <article id="about">
-            <section>
-               <p>When planning for children, my mother initially wanted an eldest son 
+            <section id="about-section">
+               <p id="about-text">When planning for children, my mother initially wanted an eldest son 
                   and a younger daughter. After having my eldest sister for her first child, 
                   she decided that she would be content with the inverse: a younger son 
                   and eldest daughter. This led to the birth of my second oldest sister.
@@ -39,57 +32,96 @@
                   regardless of the outcome it would be her last child. The universe then 
                   decided to stop playing its cosmic joke with my mother, who then had her one 
                   and only boy that she wanted; her last <em>Chance</em> for a son.</p>
-               <figure>
-                  <img src="./images/placeholder-image.png" alt="Temporary placeholder image" style="max-width: 10%; height: auto;">
-                  <figcaption>Placeholder image description</figcaption>
+               <figure id=about-fig>
+                  <img  id="about-img" src="./images/placeholder-image.png" alt="Temporary placeholder image">
                </figure>
             </section>
          </article>
          <button class="article-button"><h2>Places I've Lived</h2></button>
-         <article id="places">
-            <section>
+         <article id="cities">
+            <section class="city">
+               <figure class="city-figure">
+                  <img  src="./images/placeholder-image.png" alt="Temporary placeholder image">
+               </figure>
                <h3>Lancaster, California</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
                   tempor incididunt ut labore et dolore magna aliqua. Quam id leo in vitae 
                   turpis.</p>
             </section>
-            <section>
+            <section class="city">
+               <figure class="city-figure">
+                  <img  src="./images/placeholder-image.png" alt="Temporary placeholder image">
+               </figure>
                <h3>Springfield, Illinois</h3>
                <p>Ridiculus mus mauris vitae ultricies leo integer. Viverra justo nec 
                   ultrices dui sapien eget mi proin sed. Tortor id aliquet lectus proin 
                   nibh.</p>
             </section>
-            <section>
+            <section class="city">
+               <figure class="city-figure">
+                  <img  src="./images/placeholder-image.png" alt="Temporary placeholder image">
+               </figure>
                <h3>Edwardsville, Illinois</h3>
                <p>Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. 
                   Venenatis a condimentum vitae sapien pellentesque habitant.</p>
             </section>
-            <section>
+            <section class="city">
+               <figure class="city-figure">
+                  <img  src="./images/placeholder-image.png" alt="Temporary placeholder image">
+               </figure>
                <h3>Lyon, France</h3>
                <p>Eleifend mi in nulla posuere sollicitudin aliquam. Gravida dictum fusce
                   ut placerat orci.</p>
             </section>
-            <section>
+            <section class="city">
+               <figure class="city-figure">
+                  <img  src="./images/placeholder-image.png" alt="Temporary placeholder image">
+               </figure>
                <h3>Columbus, Ohio</h3>
                <p>Pellentesque dignissim enim sit amet venenatis urna cursus. Nunc mattis
                   enim ut tellus. Sed viverra ipsum nunc aliquet bibendum enim. Nunc
                   consequat interdum varius sit amet mattis vulputate enim.</p>
             </section>
-            <section>
+            <section class="city">
+               <figure class="city-figure">
+                  <img  src="./images/placeholder-image.png" alt="Temporary placeholder image">
+               </figure>
                <h3>St. Louis, Missouri</h3>
                <p>Congue nisi vitae suscipit tellus. Massa enim nec dui nunc mattis enim. 
                   Ultrices eros in cursus turpis massa tincidunt dui ut.</p>
             </section>
-            <section>
+            <section class="city">
+               <figure class="city-figure">
+                  <img  src="./images/placeholder-image.png" alt="Temporary placeholder image">
+               </figure>
                <h3>Austin, Texas</h3>
                <p>Morbi tincidunt ornare massa eget egestas purus viverra accumsan. Adipiscing 
                   elit ut aliquam purus sit amet.</p>
             </section>
          </article>
-         <button class="article-button"><h2>Future Goals ???</h2></button>
-         <article id="article-3">
+         <button class="article-button"><h2>Goals</h2></button>
+         <article id="goals">
+            <section>
+               <figure>
+                  <img class="goal-icon" src="./images/outline_javascript_black_24dp.png" alt="Javascript Logo">
+               </figure>
                <p>In cursus turpis massa tincidunt dui ut ornare lectus sit. Leo duis ut diam 
                   quam.</p>
+            </section> 
+            <section>
+               <figure>
+                  <img class="goal-icon" src="./images/outline_javascript_black_24dp.png" alt="Javascript Logo">
+               </figure>
+               <p>In cursus turpis massa tincidunt dui ut ornare lectus sit. Leo duis ut diam 
+                  quam.</p>
+            </section> 
+            <section>
+               <figure>
+                  <img class="goal-icon" src="./images/outline_javascript_black_24dp.png" alt="Javascript Logo">
+               </figure>
+               <p>In cursus turpis massa tincidunt dui ut ornare lectus sit. Leo duis ut diam 
+                  quam.</p>
+            </section> 
          </article>
       </main>
       <footer>
