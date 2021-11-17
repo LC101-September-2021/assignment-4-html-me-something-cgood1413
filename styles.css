@@ -1,3 +1,9 @@
+/* Obviously I didn't follow the assignment 100% exactly, but I personally feel like the key concepts are there */
+
+/* My major issue with my CSS file is that it doesn't feel very elegant, I'm basically addressing issues ad hoc when the overall formatting isn't doing what I want*/
+
+/* An 8px body margin with red headings and green text is just not a vibe imho 😬 */
+
 body {
     background-color: #EAE7EB;
     margin: 0;
@@ -162,6 +168,7 @@ figure {
     margin-right: 25px;
 }
 
+/* I would'vd liked for my cities sections to have kept the h3's and text on the same axis and scaled the images to adjust for this but every combination I tried didn't work out :/ */
 .city-figure {
     height: auto;
     width: 100%;
@@ -178,7 +185,6 @@ figure {
 
 
 /* Color Palette: 
-
 Lightest: #E6E4E7
 Primary: #2c5391
 Secondary #EAC435
